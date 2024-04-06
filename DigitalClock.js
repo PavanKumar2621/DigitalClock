@@ -4,9 +4,7 @@ function f()
     let d= new Date;
     let t=d.toLocaleTimeString();
     let x=document.getElementById("me");
-    
     x.value=t;
-   
 }
 function start()
 {
